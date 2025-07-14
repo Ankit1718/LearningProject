@@ -36,7 +36,7 @@ export function Exercise1() {
     setToogle(ab=>!ab);
   };
 
-let obj = {names:'Virat',age:'36',email:'virat@test.com'};
+let obj = {names:'Virat',age:'37',email:'virat@test.com'};
 
   return (
     <div style={{ background: '#abc0d2', display: 'flex', padding: '20px' }}>
