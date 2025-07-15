@@ -22,7 +22,7 @@ export function Exercise1() {
       setAb("Loading...........");
       
       const response = await axios.get('/CenturiesData.json');
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      //await new Promise(resolve => setTimeout(resolve, 1000));
       const json = (response.data)
      
       setData(json); // entire array
